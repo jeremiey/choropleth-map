@@ -18,3 +18,10 @@ body {
   min-width: 1000px;
   min-height: 600px;
 }
+
+#tooltip {
+  visibility: hidden;
+  height: auto;
+  width: auto;
+  font-size: .7rem;
+}
