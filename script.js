@@ -15,7 +15,7 @@ d3.json(countyURL).then(
     if(error) {
       console.log(log)
     } else {
-      countyData = data
+      countyData = topojson.feature(data, data.objects.counties)
 
       d3.json(educationURL).then(
         (data, error) => {
