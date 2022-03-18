@@ -9,3 +9,23 @@ let canvas = d3.select('#canvas')
 let drawMap = () => {
 
 }
+
+d3.json(countyURL).then(
+  (data, error) => {
+    if(error) {
+      console.log(log)
+    } else {
+      countyData = data
+
+      d3.json(educationURL).then(
+        (data, error) => {
+          if(error) {
+            console.log(log)
+          } else {
+            educationData = data
+          }
+        }
+      )
+    }
+  }
+)
