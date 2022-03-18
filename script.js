@@ -52,6 +52,8 @@ let drawMap = () => {
           })
 
           tooltip.text(`${county['area_name']}, ${county['state']}: ${county['bachelorsOrHigher']}%`)
+
+          tooltip.attr('data-education', county['bachelorsOrHigher'])
         })
         .on('mouseout', (countyDataItem) => {
           tooltip.transition()
