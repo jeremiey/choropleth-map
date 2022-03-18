@@ -11,4 +11,4 @@ User stories can be found at <https://www.freecodecamp.org/learn/data-visualizat
 
 ## Screenshot
 
-Not available yet...
+![Screenshot from 2022-03-18 07-04-53](https://user-images.githubusercontent.com/87664239/158946694-8f563716-ac20-4547-bbb0-954bb28a3308.png)
